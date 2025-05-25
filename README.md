@@ -7,6 +7,13 @@ A simple and interactive **Stone Paper Scissor** game built using:
 
 ---
 
+## ✨ Special Features
+
+- 🔊 **Sound Effects** for every move
+- 😄 **Relatable Emojis** to make gameplay fun and expressive
+
+---
+
 ## 🎮 Try It Out
 
 👉 [Click here to play the game](https://6813bdcabf137e58df296906--gorgeous-cascaron-1f8870.netlify.app/)
