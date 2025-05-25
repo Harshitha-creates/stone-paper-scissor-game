@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,intial-scale=1.0">
+        <link rel="stylesheet" href="./style.css"> 
+        <title>Rock-Paper-Scissor-GAME</title>
+</head>
+<body>
+    <div class="container">
+      <h1>Hi Cutie, Welcome!</h1>
+      <p>Choose your weapon:</p>
+      <div class="scoreboard">
+        <p>You: <span id="userScore">0</span> | Computer: <span id="computerScore">0</span></p>
+      </div>
+  
+      <div class="buttons">
+        <button onclick="playGame('rock')">Rock</button>
+        <button onclick="playGame('paper')">Paper</button>
+        <button onclick="playGame('scissor')">Scissor</button>
+      </div>
+  
+      <div class="result">
+        <p id="userChoice"></p>
+        <p id="computerChoice"></p>
+        <p id="resultText"></p>
+      </div>
+  
+      <button class="play-again" onclick="resetGame()">Play Again</button>
+    </div>
+  
+    <script src="convertedjscode.js"></script>
+  </body>
+</html>
